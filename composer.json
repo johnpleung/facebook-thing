@@ -1,0 +1,14 @@
+{
+    "name": "amazon thing",
+    "type": "library",
+    "license": "Apache 2.0",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "JsonPath\\": "src/Skyscanner/",
+            "Utilities\\": "src/Skyscanner/"
+        }
+    }
+}
